@@ -1,0 +1,14 @@
+// const kInitUrl = 'http://10.0.2.2:3000';
+const kInitUrl = 'https://work-clone.herokuapp.com';
+// const kInitUrl = 'https://shahid-grocery.herokuapp.com';
+const kGetStaffUrl = '$kInitUrl/common/staffdetails';
+const kGetTokenUrl = '$kInitUrl/common/stafftoken';
+const kAddStaffUrl = '$kInitUrl/admin/addstaff';
+const kDeleteStaffUrl = '$kInitUrl/admin/deletestaff';
+const kGetAddressUrl = '$kInitUrl/common/addressdetails';
+const kAddAddressUrl = '$kInitUrl/common/addaddress';
+const kDeleteAddressUrl = '$kInitUrl/common/deleteaddress';
+const kAddDeliveryDetailsUrl = '$kInitUrl/common/adddelivery';
+const kDeliveryDetailsUrl = '$kInitUrl/common/deliverydetails';
+const kUpdateDeliveryCheck = '$kInitUrl/common/updatedeliverycheck';
+const kEditDeliveryDetails = '$kInitUrl/common/editdeliverydetails';
